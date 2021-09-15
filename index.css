@@ -1,5 +1,14 @@
+
+/* This is just placeholder styling */
+
 p {
     text-align: center;
     color: aqua;
 }
-/* This is just placeholder styling */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    background-color: #f7f5f5;
+    margin: 0;
+  }
