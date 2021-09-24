@@ -28,6 +28,32 @@
     width: 100%;
 }
 
+.menu .search-container {
+    float: left;
+}
+  
+.menu input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.menu .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.menu .search-container button:hover {
+    background: #ccc;
+  }
+
 .menu {
     position: absolute;
     right: 0;
@@ -37,10 +63,43 @@
     list-style: none;
 }
 
-/* .wrap {
+.about-btn{
     position: absolute;
-    width: 274px;
+    width: 44px;
+    height: 22px;
+    left: 0px;
+    top: 8px;        
+}
+
+.login-btn {
+    position: absolute;
+    width: 95px;
     height: 39px;
-    left: 1146px;
-    top: 29px;    
-} */
+    left: 64px;
+    top: 0px;
+    
+    background: #C8D9ED;
+    border: 1px solid #1C2945;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 100px;
+}
+
+.sign-up-btn {
+    position: absolute;
+    width: 95px;
+    height: 39px;
+    left: 179px;
+    top: 0px;
+    color: #FFFFFF;
+    background: #1C2945;
+    box-shadow: 0px 4px 4px rgba(73, 72, 72, 0.05);
+    border-radius: 100px;    
+}
+
+.about-btn {
+    border: none;
+    background: none;
+}
+
+

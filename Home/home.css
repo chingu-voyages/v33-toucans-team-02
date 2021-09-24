@@ -63,3 +63,21 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
     border-radius: 100px;    
 }
+
+.hero-text {
+    position: absolute;
+    width: 427px;
+    height: 258px;
+    left: -25px;
+    top: -10px;  
+    background: #FFFFFF;    
+}
+
+.hero-img {
+    position: relative; 
+    display: block; 
+}
+
+.page-section.hero {
+    display: inline-block;
+  }

@@ -17,20 +17,26 @@
     <header class="header"> 
         <div class="header-content">
             <a href="/" class="header-logo"><img src="assets/images/logo.svg" class="header-logo-img"></a> 
+            <!-- <div class="search-container">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Explore Lifelong Learning." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div> -->
             <div class="menu">
-                <div class="wrap">
-                    <ul class="menu-list">
-                        <li class="menu-list-item">
-                            <a href="/about" class="menu-list-item-link">About</a>
-                        </li>
-                        <li class="menu-list-item">
-                            <a href="/login" class="menu-list-item-link">Login</a>
-                        </li>
-                        <li class="menu-list-item">
-                            <a href="/sign-up" class="menu-list-item-link">Sign Up</a>
-                        </li>
-                    </ul>
-                </div>            
+                <!-- <div class="wrap"> -->
+                    <!-- <ul class="menu-list"> -->
+                        <!-- <li class="menu-list-item"> -->
+                            <button href="/about" class="menu-list-item-link about-btn">About</button>
+                        <!-- </li> -->
+                        <!-- <li class="menu-list-item"> -->
+                            <button href="/login" class="menu-list-item-link login-btn">Login</button>
+                        <!-- </li> -->
+                        <!-- <li class="menu-list-item"> -->
+                            <button href="/sign-up" class="menu-list-item-link sign-up-btn">Sign Up</button>
+                        <!-- </li> -->
+                    <!-- </ul>
+                </div>             -->
             </div>
         </div>    
     </header>
@@ -43,7 +49,13 @@
 <div class="page">
     <div class="wrap">
         <section class="page-section hero">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="hero-img">
+                <img src="/assets/images/online-learning-img.svg" alt="Online Learning">
+            </div>
+            <div class="hero-text">
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h2>                
+                <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+            </div>
         </section>
         <section class="page-section product-features">
             <h2><a href="/product-features">Product Features</a></h2>
