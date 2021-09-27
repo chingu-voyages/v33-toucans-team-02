@@ -1,19 +1,19 @@
 /* Navigation Bar */
 
-.header {
+.navbar {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 96px;
     left: -3px;
     top: 0px;
-    
+    right: 0;  
     /* Background/Light-I */
     
     background: #FFFFFF;
     box-shadow: -1px 1px 2px rgba(51, 51, 51, 0.2);
 }
 
-.header-logo {
+.nav-logo {
     position: absolute;
     width: 131px;
     height: 50px;
@@ -21,14 +21,7 @@
     top: 24px;        
 }
 
-.header-content {
-    position: relative;
-    float: left;
-    clear: both;
-    width: 100%;
-}
-
-.menu .search-container {
+/* .menu .search-container {
     float: left;
 }
   
@@ -52,10 +45,10 @@
 
 .menu .search-container button:hover {
     background: #ccc;
-  }
+  } */
 
-.menu {
-    position: absolute;
+.nav-right {
+    position: fixed;
     right: 0;
 }
 
