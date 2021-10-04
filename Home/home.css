@@ -1,10 +1,5 @@
 
-
 /* Home Page */
-
-.page {
-    display: contents;
-}
 
 .page-section.hero {
     background: #C8D9ED;
@@ -19,15 +14,16 @@
     position: relative;
     width: 100%;
     height: 100%;
+    margin-top: 60px;
 }
 
 .page-section.cta {
     background: #C8D9ED;
     position: relative;
     width: 100%;
-    height: 200px;
+    height: 316px;
     left: 0px;
-    top: 96px;
+    margin-top: 60px;
 }
 
 
@@ -98,6 +94,7 @@
     width: 100%;
     height: 316px;
     margin: auto;
+    margin-top: 60px;
 }
 
 .testimonials-img {
@@ -109,6 +106,8 @@
 
 .testimonials-img img {
     height: 250px;
+    position: absolute;
+    top: 32px;
 }
 
 .page-section.product-categories {
@@ -116,6 +115,7 @@
     position: relative;
     width: 100%;
     height: 100%;
+    margin-top: 60px;
 }
 
 .product-categories-list {
@@ -128,14 +128,14 @@
 }
 
 .cta-container {
-    width: 368px;
+    width: 430px;
     font-size: 15px;
     line-height: 18px;
     text-align: center;
     display: block;
     margin-left: auto;
+    padding: 70px 30px 50px 30px;
     margin-right: auto;
-
 }
 
 .button.getting-started {
@@ -149,20 +149,28 @@
     border-radius: 100px;    
 }
 
-/* Footer WIP */
+
+/* Footer */
 
 footer {
-    /* background: #1C2945;    
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem; 
-    color: #ffff;
-    padding-bottom: 2.5rem;  */
     background: #1C2945;
-    /* position: relative; */
-    bottom: 0;
     width: 100%;
-    height: 9.5rem;
+    left: 0;
+    bottom: 0;
     color: #ffff;
+}
+
+.footer-container{
+    display: flex;
+}
+
+.footer-left {
+    text-align: center;
+  }
+
+.footer-links {
+    display: flex;
+    width: 75%;
+    -webkit-flex-direction: column;
+    flex-direction: column;
 }

@@ -14,68 +14,94 @@
 </head>
 
 <body>
-       <div class="navbar">
-           <div class="nav-left">
-               <a href="/" class="nav-logo"><img src="assets/images/logo.svg" class="nav-logo-img"></a>
-            </div>
-            <div class="nav-right">
-                <button href="/about" class="menu-list-item-link about-btn">About</button>
-                <button href="/login" class="menu-list-item-link login-btn">Login</button>
-                <button href="/sign-up" class="menu-list-item-link sign-up-btn">Sign Up</button>
+    <div class="page">
+        <div class="container">
+            <!-- Navigation Bar -->
+            <div class="row">
+                <div class="col">
+                    <a href="index.html" class="header-logo"><img src="assets/images/logo.svg" class="header-logo-img"/></a>
+                </div>
+                <div class="col" role="navigation">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a href="/about.html" class="nav-link active">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/login.html" class="nav-link">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/sign-up.html" class="nav-link">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
+        
+        <section class="page-section hero">
+            <div class="hero-container">
+                <div class="hero-img"><img src="/assets/images/home/hero/online-learning-img.svg" alt="Online Learning">
+                </div>
+                <div class="hero-text">
+                    <p class="paragraph-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>                
+                    <p class="paragraph-2"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                </div>
+            </div>
+        </section>
+        <section class="page-section product-features">
+            <div class="product-container">
+                <h2><a href="/product-features">Product Features</a></h2>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <div class="product-features-list">
+                    <div class="product-item"><img src="/assets/images/home/product-features/cloud-app.svg" alt="Cloud Application"></div>
+                    <div class="product-item"><img src="/assets/images/home/product-features/pm.svg" alt="Project Management"></div>
+                    <div class="product-item"><img src="/assets/images/home/product-features/swe-fundamentals.svg" alt="Software Engineering Fundamentals"></div>
+                    <div class="product-item"><img src="/assets/images/home/product-features/wordpress.svg" alt="Wordpress"></div>
+                </div>
+            </div>
+            </section>
+            <section class="page-section testimonials">
+                <div class="testimonials-img"><img src="/assets/images/home/testimonial-box.svg" alt="Testimonial Box">
+            </section>
+            <section class="page-section product-categories">
+                <h2><a href="/product-categories">Product Categories</a></h2>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <div class="product-categories-list">
+                    <div class="product-item"><img src="/assets/images/home/product-categories/swe-start-here.svg" alt="SWE Start Here"><span>Software Engineering</span></div>
+                    <div class="product-item"><img src="/assets/images/home/product-categories/marketing-coming-soon.svg" alt="Marketing Coming Soon"><span>Marketing</span></div>
+                    <div class="product-item"><img src="/assets/images/home/product-categories/project-management-coming-soon.svg" alt="Project Management Coming Soon"><span>Product Management</span></div>
+                    <div class="product-item"><img src="/assets/images/home/product-categories/skilled-labor-coming-soon.svg" alt="Skilled Labor Coming Soon"><span>Skilled Labor</span></div>
+                </div>
+            </section>
+            <section class="page-section cta">
+                <div class="cta-container">
+                    <h2>Start Your Journey Here</h2>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <a href="/sign-up.html"><button class="button getting-started">Getting Started</button></a>
+                </div>
+            </section>
+        </div>
+        
+        <!-- Footer -->
+        <footer>
+            <div class="footer-container">
+                    <h2> We Train U </h2>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/"><img src="/assets/images/social-media-links/LinkedIn.svg" alt="LinkedIn"></a>
+                    <a href="https://www.facebook.com/"><img src="/assets/images/social-media-links/Facebook.svg" alt="Facebook"></a>
+                    <a href="https://twitter.com/"><img src="/assets/images/social-media-links/Twitter.svg" alt="Twitter"></a>
+                    <a href="https://www.youtube.com"><img src="/assets/images/social-media-links/Youtube.svg" alt="Youtube"></a>
+                </div>
+            </div>
+        </footer>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
-    </script>
-<div class="page">
-    <section class="page-section hero">
-        <div class="hero-container">
-            <div class="hero-img"><img src="/assets/images/home/hero/online-learning-img.svg" alt="Online Learning">
-            </div>
-            <div class="hero-text">
-                <p class="paragraph-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>                
-                <p class="paragraph-2"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-            </div>
-        </div>
-    </section>
-    <section class="page-section product-features">
-        <div class="product-container">
-            <h2><a href="/product-features">Product Features</a></h2>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            <div class="product-features-list">
-                <div class="product-item"><img src="/assets/images/home/product-features/cloud-app.svg" alt="Cloud Application"></div>
-                <div class="product-item"><img src="/assets/images/home/product-features/pm.svg" alt="Project Management"></div>
-                <div class="product-item"><img src="/assets/images/home/product-features/swe-fundamentals.svg" alt="Software Engineering Fundamentals"></div>
-                <div class="product-item"><img src="/assets/images/home/product-features/wordpress.svg" alt="Wordpress"></div>
-            </div>
-        </div>
-    </section>
-    <section class="page-section testimonials">
-        <div class="testimonials-img"><img src="/assets/images/home/testimonial-box.svg" alt="Testimonial Box">
-    </section>
-    <section class="page-section product-categories">
-        <h2><a href="/product-categories">Product Categories</a></h2>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-        <div class="product-categories-list">
-            <div class="product-item"><img src="/assets/images/home/product-categories/swe-start-here.svg" alt="SWE Start Here"><span>Software Engineering</span></div>
-            <div class="product-item"><img src="/assets/images/home/product-categories/marketing-coming-soon.svg" alt="Marketing Coming Soon"><span>Marketing</span></div>
-            <div class="product-item"><img src="/assets/images/home/product-categories/project-management-coming-soon.svg" alt="Project Management Coming Soon"><span>Product Management</span></div>
-            <div class="product-item"><img src="/assets/images/home/product-categories/skilled-labor-coming-soon.svg" alt="Skilled Labor Coming Soon"><span>Skilled Labor</span></div>
-        </div>
-    </section>
-    <section class="page-section cta">
-        <div class="cta-container">
-            <h2>Start Your Journey Here</h2>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            <button class="button getting-started">Getting Started</button>
-        </div>
-    </section>
-</div>
-<footer class="footer">
-    <h2>We Train U</h2>
-</footer>
+    </div>
+
+<!-- Bootstrap JS -->
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+crossorigin="anonymous"
+></script>
 </body>
 
 </html>
