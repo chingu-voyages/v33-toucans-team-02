@@ -94,3 +94,12 @@
   border: none;
   background: none;
 }
+
+/* Jim's Edits 10/5/2021 */
+.hero {
+  background-color: #c8d9ed;
+}
+
+.footer {
+  background-color: #1c2945;
+}

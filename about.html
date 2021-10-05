@@ -22,34 +22,62 @@
 
   <body>
     <div class="container">
-      <!-- Navigation Bar -->
+      <!-- Company Logo -->
       <div class="row">
-        <div class="col">
+        <div class="col-2 justify-content-start">
           <a href="index.html" class="header-logo"
             ><img src="assets/images/logo.svg" class="header-logo-img"
           /></a>
         </div>
+        <!-- Search Form -->
+        <div class="col d-flex" role="search">
+          <form class="form-inline d-flex">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              class="btn btn-outline-success my-2 my-sm-0 btn-dark text-white"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
+        </div>
+        <!-- Navigation -->
         <div class="col" role="navigation">
-          <ul class="nav justify-content-end">
+          <ul class="nav justify-content-end gap-2">
             <li class="nav-item">
               <a href="/about.html" class="nav-link active">About</a>
             </li>
             <li class="nav-item">
-              <a href="/login.html" class="nav-link">Login</a>
+              <a
+                href="/login.html"
+                class="btn btn-light rounded-pill"
+                role="button"
+                >Login</a
+              >
             </li>
             <li class="nav-item">
-              <a href="/sign-up.html" class="nav-link">Sign Up</a>
+              <a
+                href="/sign-up.html"
+                class="btn btn-dark rounded-pill"
+                role="button"
+                >Sign Up</a
+              >
             </li>
           </ul>
         </div>
       </div>
       <!-- Hero Content -->
-      <div class="row mt-5 hero align-items-center">
-        <div class="col">
+      <div class="row mt-5 mb-4 hero align-items-center d-flex">
+        <div class="col d-flex justify-content-start">
           <img src="/assets/images/Video tutorial-amico 1.svg" />
         </div>
-        <div class="col">
-          <div class="hero-text">
+        <div class="col d-flex justify-content-end">
+          <div class="hero-text fw-bold w-100">
             <p>
               Labore commodo voluptate amet laborum minim quis aute Lorem enim
               laboris. Duis Lorem in adipisicing ea laborum. Ex non sint veniam
@@ -62,7 +90,7 @@
       </div>
       <!-- Main Content -->
       <div class="row">
-        <div class="col">
+        <div class="col-5">
           <h2>About We Train U</h2>
           <p>
             Enim incididunt voluptate est qui eiusmod. Dolore esse sunt dolore
@@ -71,7 +99,25 @@
             Velit sunt ullamco nostrud nisi cillum irure tempor et in ut
             consequat nulla.
           </p>
-          <button class="btn btn-dark">Contact Us</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 mx-auto">
+          <div class="col-6 mx-auto d-block">
+            <button class="btn btn-primary btn-lg mb-4">Contact Us</button>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div class="row footer d-flex align-content-center" style="height: 75px">
+        <div class="col text-white fs-4 d-flex">
+          <p>We Train U</p>
+        </div>
+        <div class="col justify-content-end d-flex">
+          <ion-icon name="logo-facebook" class="text-white fs-1"></ion-icon>
+          <ion-icon name="logo-twitter" class="text-white fs-1"></ion-icon>
+          <ion-icon name="logo-linkedin" class="text-white fs-1"></ion-icon>
+          <ion-icon name="logo-youtube" class="text-white fs-1"></ion-icon>
         </div>
       </div>
     </div>
@@ -82,5 +128,7 @@
       integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
       crossorigin="anonymous"
     ></script>
+    <!-- Icons -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
   </body>
 </html>
