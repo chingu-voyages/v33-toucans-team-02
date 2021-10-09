@@ -72,7 +72,9 @@
     justify-content: space-between;
 }
 
-
+section h2, p{
+    padding-left: 40px;
+}
 
 .product-features-list {
     display: flex;
