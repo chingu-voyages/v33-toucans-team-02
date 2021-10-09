@@ -72,8 +72,10 @@
     justify-content: space-between;
 }
 
-section h2, p{
-    padding-left: 40px;
+.page-section.product-features h2,
+.page-section.product-categories h2, .page-section.product-features p,
+.page-section.product-categories p{
+    padding-left: 60px;
 }
 
 .product-features-list {
