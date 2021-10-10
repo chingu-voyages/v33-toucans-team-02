@@ -1,0 +1,179 @@
+#left {
+    /* position: absolute;
+    left: 0; */
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.header {
+    position: relative;
+    height: 90px;
+    /* background-color: pink; */
+}
+.logo {
+    position: absolute;
+    top: 17px;
+    left: 38px;
+}
+.logo a {
+    display: block;
+    width: 190px;
+    height: 60px;
+    background: url(../images/logo.png) no-repeat;
+    background-size: cover;
+    font-size: 0;
+}
+.nav-top {
+    position: absolute;
+    top: 27px;
+    left: 250px;
+    width: 480px;
+    height: 48px;
+}
+.nav-top ul li {
+    float: left;
+}
+.nav-top ul li a {
+    font-weight: bold;
+    text-align: center;
+    line-height: 48px;
+    margin: 0 10px;
+    font-size: 20px;
+}
+.tab {
+    position: absolute;
+    top: 245px;
+    left: 293px;
+    width: 220px;
+    height: 40px;
+}
+.tab-style {
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1C2945;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
+}
+.current {
+    border-bottom: 2px solid #1C2945;
+}
+.tab-login {
+    float: left;
+}
+.tab-signup {
+    float: right;
+}
+.login-form {
+    position: absolute;
+    top: 345px;
+    left: 226px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr;
+}
+.email,
+.pwd {
+    position: relative;
+}
+.email label,
+.pwd label {
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+.email label {
+    background: url(../images/User.png) no-repeat;
+    background-size: contain;
+}
+.pwd label {
+    background: url(../images/Lock.png) no-repeat;
+    background-size: contain;
+}
+.input-style {
+    height: 40px;
+    width: 350px;
+    border: 1px solid #1C2945;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
+    text-indent: 4em;
+}
+.pwd .viewBox {
+    position: absolute;
+    top: 6px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.viewBoxShow {
+    background-image: url(../images/pwd-show.png);
+}
+.viewBoxHide {
+    background-image: url(../images/pwd-hide.png);
+}
+.help {
+    height: 30px;
+    font-size: 14px;
+    color: #1C2945;
+    line-height: 30px;
+}
+.help input {
+    float: left;
+    margin-top: 8px;
+}
+.help > a {
+    float: right;
+}
+.loginBtn {
+    height: 45px;
+    width: 175px;
+    border: 1px solid #1C2945;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1C2945;
+    background-color: #C8D9ED;
+    margin-left: 82px;
+}
+.switch {
+    position: absolute;
+    top: 630px;
+    left: 287px;
+    font-size: 14px;
+    color: #1C2945;
+}
+.switch a{
+    font-size: 16px;
+    font-weight: 700;
+}
+.footer {
+    font-size: 12px;
+    color: #1C2945;
+}
+.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 258px;
+}
+.footer a {
+    color: #0070d2;
+    font-weight: bold;
+}
+
+#right {
+    position: absolute;
+    top: 108px;
+    left: 775px;
+    width: 840px;
+    height: 725px;
+    background: url(../images/Login-bg.png) no-repeat;
+    background-size: 100% 100%; 
+    white-space: nowrap;
+}
+
+
