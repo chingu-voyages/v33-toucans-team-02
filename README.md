@@ -23,10 +23,10 @@ This project includes:
 - Home Page
   - Hero Section
   - Product Features
-    - Redirects to Home Page. 
+    - Temporarily redirects to Home Page. 
   - Testimonials
   - Product Categories
-    - Redirects to Home Page.  
+    - Temporarily redirects to Home Page. 
   - "Start Your Journey Here" (Call to Action)
 - About Page
   - Hero Section with a Testimonial
