@@ -14,7 +14,8 @@ We Train U is an online learning and teaching platform for students looking to s
 
 # How to Run the App
 
-TBD
+We Train U's Website runs on GitHub Pages as seen in the following link:
+https://chingu-voyages.github.io/v33-toucans-team-02/
 
 # Features
 This project includes:
