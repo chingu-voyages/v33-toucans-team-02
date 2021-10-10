@@ -35,7 +35,7 @@ This project includes:
 
 
 # Design System
-We Train U's design system is a library of reuasble components served as a guide to maintain efficiency and consistency when building our website.
+We Train U's design system is a library of reusable components served as a guide to maintain efficiency and consistency when building our website.
 <img src="assets/images/design-system/design-system-1.png" alt="Design System Part 1">
 <img src="assets/images/design-system/design-system-2.png" alt="Design System Part 2">
 
