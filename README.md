@@ -35,14 +35,32 @@ This project includes:
 
 
 # Design System
-
+We Train U's design system is a library of reuasble components served as a guide to maintain efficiency and consistency when building our website.
 <img src="assets/images/design-system/design-system-1.png" alt="Design System Part 1">
 <img src="assets/images/design-system/design-system-2.png" alt="Design System Part 2">
 
 # Site Map
+This sitemap lists the pages of We Train U's website. Our team used this during the planning of our website's structure.
 <img src="assets/images/design-system/site-map.png" alt="Site Map">
 
+# Figma - Design
+Our team utilized Figma to design mock-ups of active webpages before development. Mock-Ups are made available for view by visiting this [link](https://www.figma.com/file/tyePR4TZbI1fXEQCzFPheX/?node-id=0%3A1). 
+
+The Figma contains the following three pages:
+- Iterations of the Website
+ - Home Page Mock-Ups (High Fidelity and Medium Fidelity)
+ - About Us
+ - Login and Sign-Up Pages
+ - Product Categories
+   - Note: Our initial plan was to have Product Categories showcase Software Engineering as the only interactive link for MVP. 
+- Design System
+- Site Map
+
 # Future Features
+- Interactive Product Categories
+  - Products available for learning in specific categories, including Web Development, Marketing, Business, and Design.
+- Interative Product Features
+  - A section that features products recommended by students.
 - Chat Features
   - For students to interact with professionals in the field of their choice.
 - Links to Youtube Videos
@@ -60,6 +78,3 @@ This project includes:
   - [Jim Rogers](https://github.com/EnvoyPrototype)
   - [Seth Starr](https://github.com/Simon51584)
   - [Tian Xia](https://github.com/AllenXT)
-
-# Reference for the Team (To Delete)
-[Keys to a well written README by Chingu](https://tinyurl.com/yk3wubft)
