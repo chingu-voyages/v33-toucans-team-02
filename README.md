@@ -15,6 +15,7 @@ We Train U is an online learning and teaching platform for students looking to s
 # How to Run the App
 
 We Train U's Website runs on GitHub Pages as seen in the following link:
+
 https://chingu-voyages.github.io/v33-toucans-team-02/
 
 # Features
@@ -36,7 +37,7 @@ This project includes:
 
 
 # Design System
-We Train U's design system is a library of reusable components served as a guide to maintain efficiency and consistency when building our website.
+We Train U's design system is a library of reusable components served to maintain efficiency and consistency when building our website.
 <img src="assets/images/design-system/design-system-1.png" alt="Design System Part 1">
 <img src="assets/images/design-system/design-system-2.png" alt="Design System Part 2">
 
@@ -49,11 +50,11 @@ Our team utilized Figma to design mock-ups of active webpages before development
 
 The Figma contains the following three pages:
 - Iterations of the Website
- - Home Page Mock-Ups (High Fidelity and Medium Fidelity)
- - About Us
- - Login and Sign-Up Pages
- - Product Categories
-   - Note: Our initial plan was to have Product Categories showcase Software Engineering as the only interactive link for MVP. 
+  - Home Page Mock-Ups (High Fidelity and Medium Fidelity)
+  - About Us
+  - Login and Sign-Up Pages
+  - Product Categories
+    - Note: Our initial plan was to have Product Categories showcase Software Engineering as the only interactive link for MVP. 
 - Design System
 - Site Map
 
